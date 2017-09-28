@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Titulo da Página</title>
+		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script type="text/javascript" src="assets/js/script.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	    <script>
+		  $( function() {
+		    $( "#tabs" ).tabs();
+		  } );
+	    </script>
+	</head>
+
+	<body>
+			<div class="slidecontainer">
+				<div class="slideshow" id="slideshow">
+					<div class="slideshowarea">
+						<div class="slide" style="background-image:url('http://via.placeholder.com/860x520')"></div>
+						<div class="slide" style="background-image:url('http://via.placeholder.com/860x520')"></div>
+						<div class="slide" style="background-image:url('http://via.placeholder.com/860x520')"></div>
+						<div class="slide" style="background-image:url('http://via.placeholder.com/860x520')"></div>
+					</div>
+					
+					<div class="slidebolinha">
+						<div class="bolinha" onclick="mudarSlide(0)"></div>
+						<div class="bolinha" onclick="mudarSlide(1)"></div>
+						<div class="bolinha" onclick="mudarSlide(2)"></div>
+						<div class="bolinha" onclick="mudarSlide(3)"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="containerTab">
+				 <div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">LOREM</a></li>
+					    <li><a href="#tabs-2">IPSUM </a></li>
+					    <li><a href="#tabs-3">DOLOR</a></li>
+					  </ul>
+					  <div id="linha"></div>
+					  <div id="tabs-1">
+					    <div class="contTab1">
+							<img src="http://via.placeholder.com/350x210">
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							<div class="btncontTab1">
+								<a href="./">
+								<div class="btnTexto">LEIA MAIS</div>
+								</a>
+							</div>
+						</div>
+						<div class="contTab1">
+							<img src="http://via.placeholder.com/350x210">
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							<div class="btncontTab1">
+								<a href="./">
+								<div class="btnTexto">LEIA MAIS</div>
+								</a>
+							</div>
+						</div>
+						<div class="contTab1">
+							<img src="http://via.placeholder.com/350x210">
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							<div class="btncontTab1">
+								<a href="./">
+								<div class="btnTexto">LEIA MAIS</div>
+								</a>
+							</div>
+						</div>
+
+
+					  </div>
+					  <div id="tabs-2">
+					    	<table>
+					    		<tr>
+								    <th>LOREM:</th>
+								    <th>LOREM:</th>
+								    <th>LOREM:</th>
+								  </tr>
+								  <tr>
+								    <td>Inpsum</td>
+								    <td>Inpsum</td>
+								    <td>Inpsum</td>
+								  </tr>
+								  <tr>
+								    <td>Inpsum</td>
+								    <td>Inpsum</td>
+								    <td>Inpsum</td>
+								  </tr>
+								  <tr>
+								    <td>Inpsum</td>
+								    <td>Inpsum</td>
+								    <td>Inpsum</td>
+								  </tr>
+					    	</table>
+					  </div>
+					  <div id="tabs-3">
+					    <div class="p1">
+					    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+					    </div>
+					    
+					    <div class="p2">
+					    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+					    </div>
+					  </div>
+					</div>
+			</div>
+	</body>
+</html>
